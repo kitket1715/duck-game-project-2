@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Duck</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Game Duck</h1>
+        <nav>
+            <ul>
+                <li><a href="#game" tabindex="1">Play</a></li>
+                <li><a href="#instructions" tabindex="2">Instructions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="instructions">
+            <h2>How to Play</h2>
+            <p>Select a highlight duck to score points. The game gets faster as you go!</p>
+        </section>
+
+        <section id="game">
+    <button id="start-button">Start Game</button>
+    <p id="score">Score: 0</p>
+            <h2>Game Area</h2>
+            <div class="grid">
+                <button class="duck-btn" id="duck-red" style="background-image: url('assets/images/duck-red.png');"></button>
+                <button class="duck-btn" id="duck-blue" style="background-image: url('assets/images/duck-blue.png');"></button>
+                <button class="duck-btn" id="duck-green" style="background-image: url('assets/images/duck-green.png');"></button>
+                <button class="duck-btn" id="duck-yellow" style="background-image: url('assets/images/duck-yellow.png');"></button>
+              </div>
+            <button id="start-button">Start Game</button>
+            <p id="score" role="status">Score: 0</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Game Duck. All rights reserved.</p>
+    </footer>
+
+    <script src="js/game-duck.js"></script>
+</body>
+</html

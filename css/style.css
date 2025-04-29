@@ -1,0 +1,102 @@
+/* Game Duck - CSS Styling */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3b8c99;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+#duck-container {
+    margin: 2rem 0;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duck {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.duck:hover,
+.duck:focus {
+    transform: scale(1.1);
+    outline: 2px solid #3b8c99;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .duck-btn {
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    border: none;
+    border-radius: 12px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+  
+  .duck-btn.active {
+    opacity: 1;
+  }
+  
+#start-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #3b8c99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #317a85;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ccc;
+    margin-top: 3rem;
+}
