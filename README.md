@@ -67,7 +67,7 @@ Known Issues:
 The site is deployed via **GitHub Pages**.
 
 **To Deploy Locally:**
-1. Clone the repo: `git clone https://github.com/yourusername/game-duck`
+1. Clone the repo: `git clone (https://github.com/kitket1715/duck-game-project-2.git)`
 2. Open `index.html` in your browser
 
 **GitHub Pages Deployment:**
